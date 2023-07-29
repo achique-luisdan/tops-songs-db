@@ -1,0 +1,60 @@
+-- Base de Datos: Caso Práctico - Mejores Canciones Semanal en Spotify
+-- Descripción del Script SQL: Inserción Masiva de Datos
+-- Sistema Gestor de Base de Datos: PostgreSQL 15.3
+-- Última modificación: mie 25 jul 2023 21:42
+-- Versión 0.1
+--------------------------------------------------------------------------
+
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-01-06.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-01-13.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-01-20.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-01-27.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-02-03.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-02-10.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-02-17.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-02-24.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-03-03.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-03-10.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-03-17.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-03-24.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-03-31.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-04-07.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-04-14.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-04-21.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-04-28.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-05-05.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-05-12.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-05-19.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-05-26.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-06-02.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-06-09.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-06-16.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-06-23.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-06-30.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-07-07.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-07-14.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-07-21.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-07-28.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-08-04.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-08-11.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-08-18.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-08-25.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-09-01.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-09-08.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-09-15.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-09-22.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-09-29.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-10-06.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-10-13.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-10-20.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-10-27.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-11-03.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-11-10.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-11-17.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-11-24.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-12-01.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-12-08.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-12-15.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-12-22.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2022-12-29.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
+\copy core.tmp_weekly_tops (rank, uri, artist_names, track_name, source, peak_rank, previous_rank, weeks_on_chart, streams, end_date) FROM 'regional-global-weekly-2023-01-05.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF-8';
