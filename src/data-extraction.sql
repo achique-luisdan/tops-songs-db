@@ -77,3 +77,10 @@ BEGIN
 	END LOOP;
 END;
 $BODY$;
+
+-- Modifica la columna start_date = menos 6 días que la columna end_date.
+UPDATE spotify.weeks_songs
+SET
+    start_date = (
+        end_date - CAST ('6 days' AS INTERVAL)
+    );
