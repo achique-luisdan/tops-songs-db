@@ -3,6 +3,7 @@
         "plpgsql",
         "songsdb",
         "spfpr",
+        "spfprid",
         "spotify",
         "unnest"
     ]
